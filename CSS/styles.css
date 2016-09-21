@@ -1,0 +1,15 @@
+body .wrapper {
+background-color:#007BE1;
+}
+
+body #first {
+	background-color: white;
+	border-radius: 25px;
+    border: 2px solid #89818A;
+    padding: 20px;
+    width: 580px;
+    height: auto;
+    margin:auto 50px;
+
+}
+body #first img {}
