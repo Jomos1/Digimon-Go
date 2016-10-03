@@ -1,62 +1,74 @@
-body .wrapper {
-background-image: url(/Assets/hero.png);
-background-repeat:no-repeat;
+html {
+	   font-family: 'Sarpanch', sans-serif;
 }
 
+body {
+background-image: url(/Assets/hero.png);
+background-repeat:no-repeat;
+background-position: right;
+}
 
 
 div #hero {
 	border-radius: 25px;
     border: 2px solid #89818A;
     padding: 20px;
-    width: 400px;
+    width:45%;
     height: auto;
     margin:auto 50px;
     margin-top: 100px;
     font-family: 'Sarpanch', sans-serif;
     font-size:14px;
     background-color: white;
+    overflow: auto;
+}
+
 }
 
 div#DL {
 	border-radius: 25px;
     border: 2px solid #89818A;
     padding: 20px;
-    width: 400px;
-    height: auto;
+    width: 25%;
+    height: 270px;
     margin:auto 50px;
     margin-top: 100px;
 	font-family: 'Sarpanch', sans-serif;
     font-size:14px;
     background-color: white;
+    float: left;
+    display: inline-block;
 }
 
 div#NERD {
 	border-radius: 25px;
     border: 2px solid #89818A;
     padding: 20px;
-    width: 400px;
+    width: 25%;
     height: auto;
     margin:auto 50px;
     margin-top: 100px;
+    margin-left:-30px;
     font-family: 'Sarpanch', sans-serif;
     font-size:14px;
     background-color: white;
+    display: inline-block;
 }
 
 div#nolyfe {
 	border-radius: 25px;
     border: 2px solid #89818A;
     padding: 20px;
-    width: 400px;
+    width: 25%;
     height: auto;
     margin:auto 50px;
     margin-top: 100px;
+    margin-left:-30px;
     font-family: 'Sarpanch', sans-serif;
     font-size:14px;
     background-color: white;
+    display: inline-block;
 }
-
 
 
 }
@@ -77,5 +89,6 @@ div#nolyfe {
 .one ul li {
 	display: inline-block;
 	margin: 25px 10px;
+	font-family: 'Sarpanch', sans-serif;
+	float: right
 }
-
